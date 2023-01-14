@@ -6,7 +6,7 @@
 }
 :root{
     --orange:#FF900E;
-    --margin:50px 0;
+    --margin:5rem 0;
 }
 .container{
     width: 100%;
@@ -94,4 +94,48 @@ feature section
 }
 .feature-title-two{
     color: var(--orange) ;
+}
+/*-----------------------
+ more feature section
+----------------------- */
+.more-feature{
+    display: flex;
+    justify-content: space-between;
+}
+.vertical-line{
+    width: 3px;
+    height: 70px;
+    background-color: var(--orange);
+}
+.line-and-title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.more-description{
+    width: 45%;
+}
+.more-description > p{
+    font-size: 15px;
+    color: gray;
+    margin: 15px 0;
+}
+.more-feature-card{
+    /* border: 1px solid; */
+    box-shadow: 5px 5px 10px lightgrey;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.more-feature-card > p{
+    font-size: 12px;
+    padding: 5px 0;
+    color: gray;
+}
+.more-picture{
+ width: 45%;
+}
+.more-picture img{
+    width: 100%;
+    height: 100%;
 }
