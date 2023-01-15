@@ -247,3 +247,46 @@ footer p{
     padding: 20px;
     border-radius: 5px;
 }
+.hide{
+    display: none;
+}
+
+/* responsive by media quary */
+
+@media screen and (max-width: 576px) {
+    .nav > ul{
+        margin:auto;
+        padding: 0;
+    }
+    .banner img{
+        padding: 10px;
+    }
+    .feature, .more-feature, .sponspors-logo, .contact-section,.nav{
+        flex-direction: column;
+    }
+    .feature-picture, .feature-description,.more-description, .more-picture, .some-fact-box, .contact-section>div, .google-map>iframe{
+        width: 100% !important;
+        padding: 10px;
+    }
+    .some-fact{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+        margin: 10px 5px;
+    }
+    .some-fact-heading, .some-fact-title{
+        margin: 0 5px;
+    }
+    .some-fact-box, .sponspors-logo{
+        margin: 0;
+    }
+    .sponspors-heading{
+        margin-top: 50px ;
+    }
+    .logo-picture{
+        width: 50%;
+        margin: 20px 0;
+    }
+    
+    
+}
