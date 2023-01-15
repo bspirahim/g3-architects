@@ -174,3 +174,76 @@ feature section
     -ms-transform: scale(0.8);
     background-color: var(--bisque-color);
 }
+.sponspors-heading{
+    text-align: center;
+}
+.sponspors-heading > p{
+    width: 75\%;
+    margin: 20px auto;
+}
+.sponspors-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem 0;
+}
+.logo-picture{
+    width:100px;
+}
+.sponspors-logo img{
+    width: 100%;
+    filter: grayscale(1);
+}
+.contact-banner{
+    background-color: antiquewhite;
+}
+.contact-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.contact-description h3{
+    font-size: 30px;
+}
+.contact-description p{
+    width: 100%;
+    font-size: 15px;
+    margin: 10px 0;
+}
+.contact-details{
+    margin-bottom: 20px;
+}
+.input-name{
+    margin: 10px 0;
+    padding: 10px 0;
+    width: 39.5%;
+
+}
+.input-field{
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+}
+.find-us{
+    width: 45%;
+}
+.find-us h3{
+    font-size: 30px;
+}
+.find-us p{
+    padding: 5px 0;
+}
+.google-map{
+    padding: 1rem 0;
+   
+}
+footer{
+    margin: 30px 0;
+    padding: 50px 0;
+    text-align: center;
+}
+footer p{
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 5px;
+}
