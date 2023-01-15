@@ -6,6 +6,7 @@
 }
 :root{
     --orange:#FF900E;
+    --bisque-color:#FF900E1A;
     --margin:5rem 0;
 }
 .container{
@@ -17,7 +18,7 @@
  header section 
  ---------------*/
 header{
-    background-color: #FF900E1A;
+    background-color:var(--bisque-color) ;
 }
 .nav{
     display: flex;
@@ -101,6 +102,7 @@ feature section
 .more-feature{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 6rem;
 }
 .vertical-line{
     width: 3px;
@@ -133,9 +135,42 @@ feature section
     color: gray;
 }
 .more-picture{
- width: 45%;
+    position: relative;
+    width: 45%;
 }
 .more-picture img{
     width: 100%;
     height: 100%;
+}
+.experience-btn{
+    position: absolute;
+    right: 420px;
+    top: 2150px;
+}
+.some-fact{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.some-fact-heading{
+    font-size: 30px;
+}
+.some-fact-title{
+    font-size: 15px;
+    color: gray;
+}
+.some-fact-box{
+    border-radius: 5px;
+    border: 1px solid var(--orange);
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    margin: 60px 0;
+    transition: 0.5s;
+}
+.some-fact-box:hover{
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    background-color: var(--bisque-color);
 }
